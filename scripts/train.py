@@ -7,9 +7,9 @@ from cnn_model import CNNModel
 
 # defining the data directory and hyper-parameters : 
 DATA_DIR = 'dataset' 
-BATCH_SIZE = 32
+BATCH_SIZE = 16
 LEARNING_RATE = 0.001 
-NUM_EPOCHS = 30
+NUM_EPOCHS = 10
 MODEL_PATH = 'cnn_model.pth' 
 
 # define the device on which the calculations will be performed : 

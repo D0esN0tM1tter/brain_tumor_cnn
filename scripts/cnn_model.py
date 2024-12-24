@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F 
 
 class CNNModel(nn.Module):
+    
     def __init__(self):
         super(CNNModel, self).__init__()
 

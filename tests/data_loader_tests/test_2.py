@@ -39,7 +39,7 @@ def visualize_transformed_image(data_dir):
     transformed_image = transformed_image.squeeze(0)  # Remove the batch dimension (1, 128, 128) -> (128, 128)
 
     # Plot the transformed image
-    plt.imshow(transformed_image, cmap='viridis')  # Display the image with gray colormap for single channel
+    plt.imshow(transformed_image, cmap='inferno')  # Display the image with gray colormap for single channel
     plt.title(f"Transformed Image - {rand_type}")
     plt.axis('off')  # Hide the axis for better visualization
     plt.show()
